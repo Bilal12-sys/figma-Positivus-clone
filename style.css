@@ -73,7 +73,7 @@
   display:flex;
   flex-wrap:wrap;
   gap:25px;
-  padding:50px;
+  padding:5px;
   max-width:1100px;
   margin:auto;
   background:white;
@@ -84,9 +84,9 @@
 .card{
   padding:25px;
   border-radius:18px;
-  flex:0 0 45%; /* 2 cards per row */
+  flex:0 0 45%; 
   min-height:250px;
-  width: 4000px;
+  width: 400px;
   display:flex;
   flex-direction:column;
   justify-content:space-between;
@@ -94,6 +94,20 @@
   box-shadow:1px 5px 2px #000;
   border: 1.2px solid #000;
   transition:0.3s;
+}
+.dh{
+  width: 30%;
+}
+
+.simg{
+  display: flex;
+  justify-content: right;
+}
+
+.card img{
+  width: 210px;
+  height: 150px;
+  margin-bottom: 15px;
 }
 
 .card:hover{
@@ -131,7 +145,7 @@
 
 /* Colors */
 .light{
-  background:#e1e0e0;
+  background:#f3f3f3;
   color:#111;
 }
 
